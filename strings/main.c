@@ -66,6 +66,7 @@ int main(int argc, char *argv[]) {
 	
 	printf("Digite sua senha: \n");
 	gets(senhaUsuario);
+	fflush(stdin);
 	
 	ok = strcmp(hardText, senhaUsuario);
 	
