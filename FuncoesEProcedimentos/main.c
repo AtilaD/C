@@ -4,13 +4,7 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-float maior(float num1, float num2){
-	if(num1>num2){
-		return num1;
-	}else{
-		return num2;
-	}
-}
+float maior(float num1, float num2);
 
 int main(int argc, char *argv[]) {
 	setlocale(LC_ALL,"Portuguese");
@@ -29,4 +23,11 @@ int main(int argc, char *argv[]) {
 	
 	printf("O maior numero é o %.2f", m);
 	return 0;
+	
+	float maior(float num1, float num2){
+	if(num1>num2)
+		return num1;
+	else
+		return num2;
+	}
 }
