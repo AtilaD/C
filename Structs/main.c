@@ -53,7 +53,7 @@ int main(int argc, char *argv[]) {
 	printf("%2f", IMC);
 	
 	if(IMC<18.5){
-		printf("Bem vindo %s, vejo que sua idade é %d, seu peso é %2f e altura %2f, com esses dados seu IMC é %2f, entao voce esta abaixo do peso", pes.nome, pes.idade,
+		printf("\nBem vindo %s, vejo que sua idade é %d, seu peso é %2f e altura %2f, com esses dados seu IMC é %2f, entao voce esta abaixo do peso", pes.nome, pes.idade,
 		pes.peso, pes.altura, IMC);
 	};
 	
